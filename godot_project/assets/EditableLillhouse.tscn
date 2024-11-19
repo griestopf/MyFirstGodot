@@ -1,0 +1,125 @@
+[gd_scene load_steps=9 format=4 uid="uid://cqd7xnoeu2yr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vb2p8"]
+resource_name = "Walls"
+cull_mode = 2
+albedo_color = Color(0.554413, 1, 0.940222, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6um8j"]
+_surfaces = [{
+"aabb": AABB(-1, 4.76837e-07, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAAGAAQAAAACAAYAAwAGAAIAAwAHAAYABwAEAAYABwAFAAQABQADAAEABQAHAAMAAQACAAAAAQADAAIABQAAAAQABQABAAAA"),
+"name": "Walls",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("/////wAAAAD//wAAAAAAAP///////wAA//8AAP//AAAAAP//AAAAAAAAAAAAAAAAAAD/////AAAAAAAA//8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_y6nsx"]
+resource_name = "Lillhouse_Cube"
+_surfaces = [{
+"aabb": AABB(-1, 4.76837e-07, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("/5//f/+f/3//n/9//1//f/9f/3//X/9//5//P/+f/z//n/8//1//P/9f/z//X/8//5//v//f/3//n/+//1//v/8f/3//X/+//58AAP/f/z//n////18AAP8f/z//X///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AQATAA0AAQAHABMACQASAAYACQAVABIAFwAOABQAFwARAA4AEAAKAAQAEAAWAAoABQAIAAIABQALAAgADwAAAAwADwADAAAA"),
+"material": SubResource("StandardMaterial3D_vb2p8"),
+"name": "Walls",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("/////wAA////////AAD///////8AAFTV//8AAAAA/////wAAAAD/v///AAAAAFTV/////////7///////////////////1TV//8AAP///7///wAA////v///AAD//1TVAAD//wAA//8AAP//AAD//wAA//8AAFTVAAAAAAAA//8AAAAAAAD/vwAAAAAAAFTVAAD//////78AAP///////wAA/////1TVAAAAAP///78AAAAA////vwAAAAD//1TV/7//v/9//7+qKqoq/7//vwAA/3+qKqoq//////9//7+qKqoq/////wAA/3+qKqoq/7//v/9//79U1VTV/7//vwAA/39U1VTV//////9//79U1VTV/////wAA/39U1VTV")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_6um8j")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ao4av"]
+resource_name = "Roof"
+cull_mode = 2
+albedo_color = Color(0.906392, 0, 0.27849, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_wev70"]
+_surfaces = [{
+"aabb": AABB(-1.24458, -1.24458, -1.24458, 2.48916, 1.25899, 2.48916),
+"format": 34896613377,
+"index_count": 18,
+"index_data": PackedByteArray("AQAEAAIABAADAAIAAwABAAAAAwAEAAEAAAABAAIAAwAAAAIA"),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 5,
+"vertex_data": PackedByteArray("//8AAAAAAAD//wAA//8AAP9/////fwAAAAAAAAAAAAAAAAAA//8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2jajj"]
+resource_name = "Lillhouse_Cube_001"
+_surfaces = [{
+"aabb": AABB(-1.24458, -1.24458, -1.24458, 2.48916, 1.25899, 2.48916),
+"attribute_data": PackedByteArray("/1//f/9f/3//X/9//1//P/9f/z//X/8//58AAP+f/3//n/8//5//v/9f/7//H/9//1//v/9fAAD/H/8//1///w=="),
+"format": 34896613399,
+"index_count": 18,
+"index_data": PackedByteArray("AwANAAYADwAMAAkACwAEAAEACwAOAAQAAgAFAAgACgAAAAcA"),
+"material": SubResource("StandardMaterial3D_ao4av"),
+"name": "Roof",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("//8AAAAApvH//wAAAAD/v///AAAAAFvZ//8AAP//h7H//wAA////v///AAD//1vZ/3////9/h7H/f////3+m8f9/////f1vZ/3////9/UsAAAAAAAACm8QAAAAAAAP+/AAAAAAAAUsAAAAAA//+HsQAAAAD///+/AAAAAP//UsBwok/CAAD/f/ZEKwYd6PstAAD/f/ZEKwYd6PstcKJPwvZEKwbWyMS+cKJPwgAA/3/WyMS+Hej7LQAA/3/WyMS+")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_wev70")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0md3i"]
+_surfaces = [{
+"aabb": AABB(-1, 4.76837e-07, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAAGAAQAAAACAAYAAwAGAAIAAwAHAAYABwAEAAYABwAFAAQABQADAAEABQAHAAMAAQACAAAAAQADAAIABQAAAAQABQABAAAA"),
+"name": "Walls",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("/////wAAAAD//wAAAAAAAP///////wAA//8AAP//AAAAAP//AAAAAAAAAAAAAAAAAAD/////AAAAAAAA//8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xfls6"]
+resource_name = "Lillhouse_Cube_002"
+_surfaces = [{
+"aabb": AABB(-1, 4.76837e-07, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("/5//f/+f/3//n/9//1//f/9f/3//X/9//5//P/+f/z//n/8//1//P/9f/z//X/8//5//v//f/3//n/+//1//v/8f/3//X/+//58AAP/f/z//n////18AAP8f/z//X///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AQATAA0AAQAHABMACQASAAYACQAVABIAFwAOABQAFwARAA4AEAAKAAQAEAAWAAoABQAIAAIABQALAAgADwAAAAwADwADAAAA"),
+"material": SubResource("StandardMaterial3D_vb2p8"),
+"name": "Walls",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("/////wAA////////AAD///////8AAFTV//8AAAAA/////wAAAAD/v///AAAAAFTV/////////7///////////////////1TV//8AAP///7///wAA////v///AAD//1TVAAD//wAA//8AAP//AAD//wAA//8AAFTVAAAAAAAA//8AAAAAAAD/vwAAAAAAAFTVAAD//////78AAP///////wAA/////1TVAAAAAP///78AAAAA////vwAAAAD//1TV/7//v/9//7+qKqoq/7//vwAA/3+qKqoq//////9//7+qKqoq/////wAA/3+qKqoq/7//v/9//79U1VTV/7//vwAA/39U1VTV//////9//79U1VTV/////wAA/39U1VTV")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_0md3i")
+
+[node name="Lillhouse" type="Node3D"]
+
+[node name="Walls" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_y6nsx")
+skeleton = NodePath("")
+
+[node name="Roof" type="MeshInstance3D" parent="Walls"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.02831, 0)
+mesh = SubResource("ArrayMesh_2jajj")
+skeleton = NodePath("")
+
+[node name="Chimney" type="MeshInstance3D" parent="Walls/Roof"]
+transform = Transform3D(0.232556, 0, 0, 0, 0.37678, 0, 0, 0, 0.232556, 0.638147, -0.90966, 0.0572232)
+mesh = SubResource("ArrayMesh_xfls6")
+skeleton = NodePath("")
